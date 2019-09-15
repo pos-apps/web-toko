@@ -1,0 +1,47 @@
+.bg-default{
+    background-color: #2095F2;
+    background: #2095F2;
+}
+main#login-main{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.login-form-frame,
+.login-image-frame{
+    height: 100vh;
+}
+.login-form-frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form-frame .container{
+    width: 70%;
+}
+.login-form-frame form{
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+}
+#button-login{
+    margin-top: 30px;
+}
+.login-image-frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/background-login.png) no-repeat;
+    background-size: auto 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 768px) {
+    .login-form-frame .container{
+        width: 100%;
+    }
+    .login-image-frame{
+        display: none;
+    }
+}
