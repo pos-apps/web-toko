@@ -42,7 +42,7 @@ main#login-main{
 
 @media (max-width: 768px) {
     .login-form-frame .container{
-        width: 100%;
+        width: 90%;
     }
     .login-image-frame{
         display: none;
